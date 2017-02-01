@@ -2,14 +2,14 @@ Pequeno script para otimizar imagens PNG e JPG
 
 ### Depende de:
 
-- zopflipng `apt-get install jpegoptim`
+- jpegoptim `apt-get install jpegoptim`
 
-- jpegoptim
+- zopflipng 
 
-git clone https://github.com/google/zopfli
-cd zopfli
-make zopflipng
-mv zopflipng /usr/local/bin/
+* git clone https://github.com/google/zopfli
+* cd zopfli
+* make zopflipng
+* mv zopflipng /usr/local/bin/
 
 
 ### Crontab
